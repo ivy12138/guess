@@ -1,5 +1,8 @@
 import random
-r=random.randint(1,100)
+
+start=int(input('the start value:'))
+end=int(input('the end value:'))
+r=random.randint(start,end)
 count=0
 while True:
     count=count+1
